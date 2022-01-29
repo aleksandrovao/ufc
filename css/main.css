@@ -92,10 +92,11 @@ a {
 
 .header {
   height: 100vh;
-  width: 100%;
 }
 .header__img {
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 .header .logo {
   color: #e70201;
@@ -172,6 +173,39 @@ a {
   .header__video iframe {
     width: 750px;
     height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__video {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+  .header__video iframe {
+    width: 750px;
+    height: 300px;
+  }
+}
+@media (min-width: 1440px) {
+  .header__video {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+  .header__video iframe {
+    width: 960px;
+    height: 500px;
+  }
+}
+@media (min-width: 1920px) {
+  .header__video {
+    position: absolute;
+    left: 18%;
+    top: 20%;
+  }
+  .header__video iframe {
+    width: 960px;
+    height: 500px;
   }
 }
 /*# sourceMappingURL=main.css.map */
