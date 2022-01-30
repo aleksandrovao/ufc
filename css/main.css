@@ -120,6 +120,10 @@ a {
   top: 4%;
   width: 90px;
 }
+.header__video iframe {
+  border: #e70201 3px solid;
+  padding: 20px;
+}
 
 @media (min-width: 576px) {
   .header .logo {
@@ -175,15 +179,15 @@ a {
     height: 300px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1220px) {
   .header__video {
     position: absolute;
-    left: 15%;
-    top: 15%;
+    left: 8%;
+    top: 10%;
   }
   .header__video iframe {
-    width: 750px;
-    height: 300px;
+    width: 960px;
+    height: 500px;
   }
 }
 @media (min-width: 1440px) {
